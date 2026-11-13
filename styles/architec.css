@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+// <weight>: Use a value from 100 to 900
+// <uniquifier>: Use a unique and descriptive class name
+
+.work-sans-font {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+}
+
+
+/* share code */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.primary-color{
+    color: #FF900E;
+}
+.display-flex{
+    display: flex;
+}
+.text-dark3{
+    color: #727272;
+}
+.text-dark2{
+    color: #424242;
+}
+.text-dark1{
+    color: #131313;
+}
+.btn-primarry{
+   background-color: #FF900E; 
+   color: white;
+   font-size: 1.25rem;
+   padding: 1.25rem 2rem;
+   border: none;
+   border-radius: 8px;
+   font-weight: 600;
+
+}
+.banner-content, .banner, .features{
+
+    max-width: 1453px;
+    margin: 0 auto;
+
+}
+
+
+/* header code */
+header{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+.nav-container{
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 3.1rem;
+}
+
+.nav-items{
+    list-style: none;
+    margin-right: 1.25rem;
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.brand{
+    font-size: 3rem;
+    font-weight: bold;
+}
+/* banner styles */
+.banner-content{
+    margin: 0 auto;
+    max-width: 850px;
+    text-align: center;
+}
+.banner-tittle{
+    font-size: 4rem;
+    font-weight: bold;
+    margin-top: 7.50rem;
+}
+.banner-description{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+}
+.banner-img{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.features{
+    padding-top: 5.10rem;
+    align-items: center;
+    justify-content: center;
+}
+.features-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1.50rem;
+}
+.features-details{
+    margin-left: 4.50rem;
+    max-width: 440px;
+    
+    
+}
+.features-heading{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.features-text{
+    padding-top: 1.50rem;
+    padding-bottom: 1.75rem;
+    font-size: 1rem;
+} 
