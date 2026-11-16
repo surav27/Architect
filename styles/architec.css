@@ -42,7 +42,12 @@
    font-weight: 600;
 
 }
-.banner-content, .banner, .features{
+.banner-content, 
+.banner, 
+.features, 
+.facts, 
+.sponsors,
+.best-features{
 
     max-width: 1453px;
     margin: 0 auto;
@@ -59,6 +64,9 @@ header{
     align-items: center;
     padding-top: 3.1rem;
 }
+.nav-lists{
+    gap: 3rem;
+}
 
 .nav-items{
     list-style: none;
@@ -68,6 +76,7 @@ header{
     text-decoration: none;
     font-weight: 600;
     font-size: 1.2rem;
+    
 }
 .brand{
     font-size: 3rem;
@@ -97,6 +106,7 @@ header{
     padding-top: 5.10rem;
     align-items: center;
     justify-content: center;
+    margin-bottom: 5rem;
 }
 .features-container{
     display: grid;
@@ -118,3 +128,113 @@ header{
     padding-bottom: 1.75rem;
     font-size: 1rem;
 } 
+
+/* features */
+.best-features{
+    gap: 80px;
+    margin-top: 8rem;
+}
+
+.features-categories{
+    max-width: 586px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    padding: 2rem 2rem;
+    margin-right: 2rem;
+    border-radius: 8px;
+    margin-bottom: 3rem;
+}
+.category{
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    
+}
+.ex-bottom{
+    background-color: #FF900E;
+    max-width: 342px;
+    max-height: 200px;
+    padding: 30px 30px;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+    margin-top: -100px;
+    border: none;
+}
+.experience{
+    font-size: 4rem;
+}
+/* facts styles */
+.facts{
+    margin-top: 7rem;
+    margin-bottom: 8rem;
+
+}
+.facts-heading, 
+.sponsors-heading,
+.types-heading{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+.facts-para, .types-details{
+    max-width: 500px;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+.awards{
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 6.50rem;
+    text-align: center;
+    padding-left: 2.50rem;
+    padding-right: 2.50rem;
+    
+}
+.award{
+    border: 1px solid #FF900E;
+    padding: 3rem 3rem;
+    border-radius: 8px;
+}
+.award-number{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.award-title{
+    font-size: 1.50rem;
+    font-weight: 500;
+}
+
+/* sponsors style */
+.sponsors{
+    margin: 0 auto;
+    max-width: 1439pxS;
+    text-align: center;
+}
+.sponsors-details{
+    max-width: 500px;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+.sponsors-company{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8rem;
+}
+.sponsors-company img{
+    filter: grayscale(100%);
+}
+/* footer styles */
+.footer-section{
+    max-width: 1220px;
+    background-color: rgba(255, 144, 14, 0.1);
+    margin: 0 auto;
+    margin-bottom: 5rem;
+    text-align: center;
+    padding-top: 2.50rem;
+    padding-bottom: 2.50rem;
+    border-radius: 8px;
+}
+.footer-text{
+    font-size: 1rem;
+}
+
